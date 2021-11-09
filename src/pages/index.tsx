@@ -8,7 +8,7 @@ export default function Home() {
       <ContainerBox>
         <Wrap display='flex' justify='center' m='auto'>
           <WrapItem maxW='570px'>
-            <Center>
+            <Center mb='170px'>
               <VStack >
                 <Text as='h1' textAlign='left'>
                   A Lei Geral de Proteção de Dados
@@ -24,7 +24,7 @@ export default function Home() {
           </WrapItem>
           <WrapItem maxW='570px'>
             <Center>
-              <Image src='/logo-campanha.png' alt='LGPD' w='100%' mt='-170px' />
+              <Image src='/logo-campanha.png' alt='LGPD' w='100%' maxW='685px' mt='-170px' />
             </Center>
           </WrapItem>
         </Wrap>
@@ -32,7 +32,7 @@ export default function Home() {
 
       {/* O que é a LGPD */}
 
-      <Box bg='#fff' py='100px'>
+      <Box bg='#fff' py='100px' >
         <ContainerBox>
           <Text color='#FF80ED' fontSize='2.6rem' fontWeight='800'>
             {`<`}O que é a LGPD?{`>`}
@@ -56,12 +56,12 @@ export default function Home() {
       <Box py='100px'>
         <ContainerBox>
           <Wrap display='flex' justify='center' spacing='30px'>
-            <WrapItem maxW='575px' px='15px'>
+            <WrapItem maxW='575px' w='100%' px='15px'>
               <Center>
                 <Image src='/imagem_ilustracao.png' alt='Fundamentos da LGPD' mt='-100px' />
               </Center>
             </WrapItem>
-            <WrapItem maxW='575px' px='15px'>
+            <WrapItem maxW='575px' w='100%' px='15px'>
               <Center>
                 <VStack >
                   <Box>
@@ -119,7 +119,12 @@ export default function Home() {
       <Box bg='#fff' py='100px'>
         <ContainerBox>
           <Box maxW='1110px'>
-            <Center>
+
+            <Text color='#FF80ED' fontSize='2.6rem' fontWeight='800'>
+              {`<`}LGPD na mídia{`>`}
+            </Text>
+
+            <Center display='flex' justifyContent='center'>
               <SimpleGrid columns={[1, null, null, 3]} spacing='16'>
                 <Center w="270px" h="80px" borderColor="#00ffff" borderWidth='2px'>
                   Box 1
@@ -134,22 +139,19 @@ export default function Home() {
             </Center>
 
 
-            <Text color='#FF80ED' fontSize='2.6rem' fontWeight='800'>
-              {`<`}LGPD na mídia{`>`}
-            </Text>
             <Wrap justify='space-between'>
               <WrapItem>
-                <Center w="180px" h="80px" borderColor="#00ffff" borderWidth='2px'>
+                <Center w="270px" h="80px" borderColor="#00ffff" borderWidth='2px'>
                   Box 1
                 </Center>
               </WrapItem>
               <WrapItem>
-                <Center w="180px" h="80px" borderColor="#FFB52C" borderWidth='2px'>
+                <Center w="270px" h="80px" borderColor="#FFB52C" borderWidth='2px'>
                   Box 2
                 </Center>
               </WrapItem>
               <WrapItem>
-                <Center w="180px" h="80px" borderColor="#FD04FE" borderWidth='2px'>
+                <Center w="270px" h="80px" borderColor="#FD04FE" borderWidth='2px'>
                   Box 3
                 </Center>
               </WrapItem>
