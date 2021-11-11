@@ -13,6 +13,7 @@ export const theme = extendTheme({
                 color: 'gray.50',
                 margin: 0,
                 padding: 0,
+                boxSizing: 'border-box'
             },
             h1: {
                 fontSize: '3.5rem',

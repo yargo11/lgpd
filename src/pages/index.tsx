@@ -34,13 +34,14 @@ export default function Home() {
 
       <Box bg='#fff' py='100px' >
         <ContainerBox>
-          <Text color='#FF80ED' fontSize='2.6rem' fontWeight='800'>
+          <Text color='#FF80ED' fontSize='2.6rem' fontWeight='800' px={4}>
             {`<`}O que é a LGPD?{`>`}
           </Text>
           <Text
             color='#08018A'
             fontSize='20px'
             textAlign='left'
+            px={4}
           >
             A Lei nº 13.709 de 14 de agosto de 2018, nominada como Lei Geral de Proteção de Dados Pessoais (LGPD) é a
             legislação que disciplina sobre o tratamento de dados pessoais por pessoa física ou jurídica de direito
@@ -55,13 +56,13 @@ export default function Home() {
       {/*  Fundamentos */}
       <Box py='100px'>
         <ContainerBox>
-          <Wrap display='flex' justify='center' spacing='30px'>
-            <WrapItem maxW='575px' w='100%' px='15px'>
+          <Wrap display='flex' justify='center' m='auto' spacing='30px'>
+            <WrapItem maxW='570px'>
               <Center>
                 <Image src='/imagem_ilustracao.png' alt='Fundamentos da LGPD' mt='-100px' />
               </Center>
             </WrapItem>
-            <WrapItem maxW='575px' w='100%' px='15px'>
+            <WrapItem maxW='570px'>
               <Center>
                 <VStack >
                   <Box>
@@ -118,13 +119,12 @@ export default function Home() {
 
       <Box bg='#fff' py='100px'>
         <ContainerBox>
-          <Box maxW='1110px'>
 
             <Text color='#FF80ED' fontSize='2.6rem' fontWeight='800'>
               {`<`}LGPD na mídia{`>`}
             </Text>
 
-            <Center display='flex' justifyContent='center'>
+            {/* <Center display='flex' justifyContent='center' w='full'>
               <SimpleGrid columns={[1, null, null, 3]} spacing='16'>
                 <Center w="270px" h="80px" borderColor="#00ffff" borderWidth='2px'>
                   Box 1
@@ -136,10 +136,10 @@ export default function Home() {
                   Box 3
                 </Center>
               </SimpleGrid>
-            </Center>
+            </Center> */}
 
 
-            <Wrap justify='space-between'>
+            <Wrap justify='space-between' w='full'>
               <WrapItem>
                 <Center w="270px" h="80px" borderColor="#00ffff" borderWidth='2px'>
                   Box 1
@@ -156,7 +156,6 @@ export default function Home() {
                 </Center>
               </WrapItem>
             </Wrap>
-          </Box>
         </ContainerBox>
       </Box>
 

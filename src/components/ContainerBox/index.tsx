@@ -7,7 +7,7 @@ interface ContainerProps {
 
 export default function ContainerBox({ children, ...rest }: ContainerProps) {
     return (
-        <Flex w={['sm', 'md', 'lg', '1150px']} m='auto' direction='column'>
+        <Flex w={['sm', 'md', 'lg', 'xl', '1320px']} m='auto' direction='column'>
             {children}
         </Flex>
     )
