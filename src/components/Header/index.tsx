@@ -1,24 +1,25 @@
-import { Flex, HStack, Image, Text, Spacer } from '@chakra-ui/react'
+import { Flex, HStack, Image, Text, Spacer, useBreakpointValue } from '@chakra-ui/react'
+
+import Menu from './Menu'
 
 export default function Header() {
+
+    const isWideScreen = useBreakpointValue({ base: false, lg: true })
+
     return (
         <Flex
-            w={['sm', 'md', 'lg', '1150px']}
+            // w={['sm', 'md', 'lg', '1150px']}
+            maxW='1150px'
+            px={4}
             justify='center'
             m='auto'
             h='233px'
             align='center'
         >
-            <HStack w='100%'>
-                <Image src='/logo-tjrn.png' />
+            <HStack>
+                <Image src='/logo-tjrn.png' alt='logo' />
                 <Spacer />
-                <HStack>
-                    <Text as='h5' px='8px'>Geral</Text>
-                    <Text as='h5' px='8px'>Comitê Gestor</Text>
-                    <Text as='h5' px='8px'>Dados Pessoais</Text>
-                    <Text as='h5' px='8px'>Implementação</Text>
-                    <Text as='h5' px='8px'>Políticas</Text>
-                </HStack>
+                <Menu showMenu={isWideScreen} />
             </HStack>
 
         </Flex>

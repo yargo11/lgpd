@@ -13,25 +13,27 @@ export const theme = extendTheme({
                 color: 'gray.50',
                 margin: 0,
                 padding: 0,
-                boxSizing: 'border-box'
+                boxSizing: 'border-box',
             },
             h1: {
-                fontSize: '3.5rem',
+                fontSize: ['2.75rem', '3rem', '3.5rem'],
                 fontWeight: '800',
                 lineHeight: '64px'
             },
             h5: {
-                fontSize: '1rem',
+                fontSize: ['0.75rem','0.875rem','1rem'],
                 fontWeight: '700',
                 lineHeight: '44px'
             },
             h6: {
                 fontSize: 'sm'
-            }
+            },
+
         }
     },
     fonts: {
         heading: 'Inter, Raleway',
         body: 'Inter, Raleway'
-    }
+    },
+
 });
