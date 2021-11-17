@@ -40,6 +40,7 @@ export default function Menu({ showMenu = true }: MenuProps) {
                         placement="left"
                         onClose={onClose}
                         finalFocusRef={btnRef}
+                        size='xs'
                     >
                         <Box bg='gray.800'>
                             <DrawerOverlay />

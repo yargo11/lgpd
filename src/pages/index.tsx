@@ -1,5 +1,4 @@
-import { Wrap, WrapItem, Center, Text, VStack, Image, Box, Flex, List, ListItem, SimpleGrid } from '@chakra-ui/react'
-import ContainerBox from '../components/ContainerBox'
+import { Wrap, WrapItem, Center, Text, VStack, Image, Box, Flex, List, ListItem, HStack, Spacer } from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -116,23 +115,35 @@ export default function Home() {
       <Box bg='#fff' py='100px'>
         <Flex maxW='1150px' m='auto' px={4} flexWrap='wrap'>
 
-          <Text color='#FF80ED' fontSize='2.6rem' fontWeight='800'>
+          <Text color='#FF80ED' fontSize={['1.75rem', '2.25rem', '2.6rem']} fontWeight='800' pb={4}>
             {`<`}LGPD na mídia{`>`}
           </Text>
-          <Wrap justify={['center','center','space-between']} w='full'>
+          <Wrap justify={['center', 'center', 'space-between']} w='full'>
             <WrapItem>
-              <Center w="270px" h="80px" borderColor="#00ffff" borderWidth='2px'>
-                Box 1
+              <Center w="270px" h="80px" borderColor="#00ffff" borderWidth='2px' borderRadius='8px 30px 8px 8px'>
+                <HStack p={4}>
+                  <Image src='/pasta-icon.png' alt="Eventos e Campanhas" />
+                  <Spacer />
+                  <Text color="#555" fontWeight='bold' fontSize={['0.75rem', '0.875rem', '1rem']}>Eventos e Campanhas</Text>
+                </HStack>
               </Center>
             </WrapItem>
             <WrapItem>
-              <Center w="270px" h="80px" borderColor="#FFB52C" borderWidth='2px'>
-                Box 2
+              <Center w="270px" h="80px" borderColor="#FFB52C" borderWidth='2px' borderRadius='8px 30px 8px 8px'>
+                <HStack p={4}>
+                  <Image src='/book-icon.png' alt="Publicações" />
+                  <Spacer />
+                  <Text color="#555" fontWeight='bold' fontSize={['0.75rem', '0.875rem', '1rem']}>Publicações</Text>
+                </HStack>
               </Center>
             </WrapItem>
             <WrapItem>
-              <Center w="270px" h="80px" borderColor="#FD04FE" borderWidth='2px'>
-                Box 3
+              <Center w="270px" h="80px" borderColor="#FD04FE" borderWidth='2px' borderRadius='8px 30px 8px 8px'>
+                <HStack p={4}>
+                  <Image src='/Vector-icon.png' alt="Materias de Referência" />
+                  <Spacer />
+                  <Text color="#555" fontWeight='bold' fontSize={['0.75rem', '0.875rem', '1rem']}>Materias de Referência</Text>
+                </HStack>
               </Center>
             </WrapItem>
           </Wrap>

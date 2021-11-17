@@ -20,13 +20,26 @@ export const theme = extendTheme({
                 fontWeight: '800',
                 lineHeight: '64px'
             },
+            h2: {
+                fontSize: ['1.95rem', '2.2rem', '2.6rem'],
+                fontWeight: '800',
+                lineHeight: '42px'
+            },
+            h3: {
+                fontSize: ['1.5rem', '1.75rem', '2rem'],
+                fontWeight: '700'
+            },
+            h4: {
+                fontSize: ['0.75rem', '1rem', '1.2rem'],
+            },
             h5: {
-                fontSize: ['0.75rem','0.875rem','1rem'],
+                fontSize: ['0.75rem', '0.875rem', '1rem'],
                 fontWeight: '700',
                 lineHeight: '44px'
             },
             h6: {
-                fontSize: 'sm'
+                fontSize: ['0.75rem', '0.875rem', '1rem'],
+                fontFamily: 'Inter'
             },
 
         }
