@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <Flex direction='column'>
       {/* Intro-Home */}
-      <Flex px={4}>
+      <Flex px={4} bg='#08018A'>
         <Wrap display='flex' justify='center' m='auto'>
           <WrapItem maxW='570px'>
             <Center mb='170px'>
@@ -52,7 +52,7 @@ export default function Home() {
       </Box>
 
       {/*  Fundamentos */}
-      <Box py='100px'>
+      <Box py='100px'  bg='#08018A'>
         <Flex maxW='1150px' m='auto' px={4} flexWrap='wrap'>
           <Wrap display='flex' justify='center' m='auto' spacing='30px'>
             <WrapItem maxW='570px'>

@@ -18,7 +18,7 @@ export default function Comite() {
 
             <Box bg="#fff" py='50px'>
                 <Flex maxW='1150px' m='auto' px={4}>
-                    <Flex mr='auto' direction='column' maxW='832px'>
+                    <Flex mr='auto' direction='column' maxW='832px' w='100%'>
                         <Text as='h3' color='#FF9600' py={4}>{`<`}Atribuições{`>`}</Text>
                         <Text as='h6' color='#555' py={1}>
                             I - avaliar os mecanismos de tratamento e proteção dos dados existentes e propor políticas,
@@ -82,59 +82,83 @@ export default function Comite() {
                         </Text>
                         <Text as='h3' color='#FF9600' py={4}>{`<`}Composição{`>`}</Text>
                         <Text as='h6' color='#555' py={1}>
-                            Art. 1º Ficam designados os(as) Magistrados(as) e Servidores(as) abaixo nominados(as) para comporem o Comitê Gestor de Proteção de Dados Pessoais (CGPD):
+                            Art. 1º Ficam designados os(as) Magistrados(as) e Servidores(as) abaixo nominados(as) para
+                            comporem o Comitê Gestor de Proteção de Dados Pessoais (CGPD):
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            I — A Juíza Auxiliar da Presidência do Tribunal de Justiça, PATRÍCIA GONDIM MOREIRA PEREIRA, como membro titular e o Juiz JOÃO AFONSO MORAIS PORDEUS como suplente;
+                            I — A Juíza Auxiliar da Presidência do Tribunal de Justiça, PATRÍCIA GONDIM MOREIRA PEREIRA,
+                            como membro titular e o Juiz JOÃO AFONSO MORAIS PORDEUS como suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            II — O Juiz Presidente do Comitê Gestor do PJE, DIEGO DE ALMEIDA CABRAL, como membro titular e a Juíza TATIANA SOCOLOSKI PERAZZO PAZ DE MELO como membro suplente;
+                            II — O Juiz Presidente do Comitê Gestor do PJE, DIEGO DE ALMEIDA CABRAL, como membro titular
+                            e a Juíza TATIANA SOCOLOSKI PERAZZO PAZ DE MELO como membro suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            III — O Juiz Auxiliar da Corregedoria-Geral de Justiça, MARIVALDO DANTAS DE ARAÚJO, como membro titular e o Juiz PAULO LUCIANO MAIA MARQUES como membro suplente;
+                            III — O Juiz Auxiliar da Corregedoria-Geral de Justiça, MARIVALDO DANTAS DE ARAÚJO, como
+                            membro titular e o Juiz PAULO LUCIANO MAIA MARQUES como membro suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            IV — O servidor LINDOLFO NETO DE OLIVEIRA SALES, representante da Secretaria Geral, como membro titular e o servidor RENATO DE MELO FURTADO como membro suplente;
+                            IV — O servidor LINDOLFO NETO DE OLIVEIRA SALES, representante da Secretaria Geral, como
+                            membro titular e o servidor RENATO DE MELO FURTADO como membro suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            V — A servidora MARIA CECÍLIA BUSSONI, representante da Secretaria de Administração, como membro titular e a servidora ORLIGEANE OLIVEIRA MOURA MEDEIROS como membro suplente;
+                            V — A servidora MARIA CECÍLIA BUSSONI, representante da Secretaria de Administração, como
+                            membro titular e a servidora ORLIGEANE OLIVEIRA MOURA MEDEIROS como membro suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            VI — A servidora ANDRE IA RAMOS DA SILVA HOLANDA LEITE, representante da Secretaria de Comunicação Social, como membro titular e o servidor JULIANO FREIRE ALVES DE SOUZA como membro suplente;
+                            VI — A servidora ANDRE IA RAMOS DA SILVA HOLANDA LEITE, representante da Secretaria de
+                            Comunicação Social, como membro titular e o servidor JULIANO FREIRE ALVES DE SOUZA como
+                            membro suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            VII — A servidora MARISTELA RODRIGUES DE QUEIROZ FREIRE, representante da Secretaria de Gestão Estratégica, como membro titular e a servidora PATRYCIA KARINA DE MELO ONOFRE ARAÚJO como membro suplente;
+                            VII — A servidora MARISTELA RODRIGUES DE QUEIROZ FREIRE, representante da Secretaria de
+                            Gestão Estratégica, como membro titular e a servidora PATRYCIA KARINA DE MELO ONOFRE ARAÚJO
+                            como membro suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            VIII — O servidor GERÂNIO GOMES DA SILVA, representante da Secretaria de Tecnologia DA Informação e Comunicação, como membro titular e o servidor GILVAN DE SOUSA GALVÃO JÚNIOR como membro suplente;
+                            VIII — O servidor GERÂNIO GOMES DA SILVA, representante da Secretaria de Tecnologia Da
+                            Informação e Comunicação, como membro titular e o servidor GILVAN DE SOUSA GALVÃO JÚNIOR
+                            como membro suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            IX — A servidora WALTEÍZE GOMES BARBOSA, representante da Secretaria Judiciária, como membro titular e o servidor MICHELLSON COSTA DE LIMA CORDEIRO como membro suplente;
+                            IX — A servidora WALTEÍZE GOMES BARBOSA, representante da Secretaria Judiciária, como membro
+                            titular e o servidor MICHELLSON COSTA DE LIMA CORDEIRO como membro suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            X — O servidor LEONARDO MEDEIROS JÚNIOR, representante do Núcleo de Assessoramento Especial à Presidência, como membro titular e o servidor LUIZ MARIZ DE ARAÚJO FILHO como membro suplente;
+                            X — O servidor LEONARDO MEDEIROS JÚNIOR, representante do Núcleo de Assessoramento Especial
+                            à Presidência, como membro titular e o servidor LUIZ MARIZ DE ARAÚJO FILHO como membro
+                            suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            XI — O servidor ELVÉCIO DE ASSIS PEREIRA JÚNIOR, representante da Assessoria Jurídica, como membro titular e o servidor KLEBER SOARES DE OLIVEIRA SANTOS como membro suplente;
+                            XI — O servidor ELVÉCIO DE ASSIS PEREIRA JÚNIOR, representante da Assessoria Jurídica, como
+                            membro titular e o servidor KLEBER SOARES DE OLIVEIRA SANTOS como membro suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            XII — A servidora TERESA RAQUEL SOUSA PAIVA DE OLIVEIRA, representante da Ouvidoria, como membro titular e a servidora ROBERTA VERÍSSIMO DE OLIVEIRA CARLOS como membro suplente;
+                            XII — A servidora TERESA RAQUEL SOUSA PAIVA DE OLIVEIRA, representante da Ouvidoria, como
+                            membro titular e a servidora ROBERTA VERÍSSIMO DE OLIVEIRA CARLOS como membro suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            XIII — A servidora KLÍCIA DE HOLANDA MAIA MONTEIRO CAVALCANTI, representante do Departamento de Recursos Humanos, como membro titular e a servidora ROXANA AGLAÊ FERREIRA LIMA MARTINS como membro suplente;
+                            XIII — A servidora KLÍCIA DE HOLANDA MAIA MONTEIRO CAVALCANTI, representante do Departamento
+                            de Recursos Humanos, como membro titular e a servidora ROXANA AGLAÊ FERREIRA LIMA MARTINS
+                            como membro suplente;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            XIV — A servidora ADRIANA CARLA SILVA DE OLIVEIRA, representante da Biblioteca Desembargador Mattos Serejo, como membro titular;
+                            XIV — A servidora ADRIANA CARLA SILVA DE OLIVEIRA, representante da Biblioteca Desembargador
+                            Mattos Serejo, como membro titular;
                         </Text>
                         <Text as='h6' color='#555' py={1}>
-                            XV — A servidora KESSIANY CARDOSO DO VALE, representante da Escola da Magistratura do Rio Grande do Norte (ESMARN), como membro titular e o servidor FRANCISCO SEVERINO NETO como membro suplente.
+                            XV — A servidora KESSIANY CARDOSO DO VALE, representante da Escola da Magistratura do Rio
+                            Grande do Norte (ESMARN), como membro titular e o servidor FRANCISCO SEVERINO NETO como
+                            membro suplente.
                         </Text>
                         <Text as='h6' color='#555' py={4}>
-                            A Juíza PATRÍCIA GONDIM MOREIRA PEREIRA atuará como coordenadora, o Juiz DIEGO DE ALMEIDA CABRAL atuará como sub- coordenador e a servidora ADRIANA CARLA SILVA DE OLIVEIRA exercerá as funções de assessoramento aos trabalhos realizados pelo CGPD.
+                            A Juíza PATRÍCIA GONDIM MOREIRA PEREIRA atuará como coordenadora, o Juiz DIEGO DE ALMEIDA
+                            CABRAL atuará como sub- coordenador e a servidora ADRIANA CARLA SILVA DE OLIVEIRA exercerá
+                            as funções de assessoramento aos trabalhos realizados pelo CGPD.
                         </Text>
                         <HStack>
-                            <Button w='50%' colorScheme='teal' as='a' target='_blank' href='/pdfs/PORTARIA Nº 1065, DE 15 DE OUTUBRO DE 2021 - republicado.pdf'>Portaria N° 1065</Button>
-                            <Button w='50%' colorScheme='teal' as='a' target='_blank' href='/pdfs/PORTARIA Nº 1066, DE 15 DE OUTUBRO DE 2021.pdf'>Portaria N° 1066</Button>
+                            <Button fontSize={['xs','sm','md']} w='50%' colorScheme='teal' as='a' target='_blank' href='/pdfs/PORTARIA Nº 1065, DE 15 DE OUTUBRO DE 2021 - republicado.pdf'>Portaria N° 1065</Button>
+                            <Button fontSize={['xs','sm','md']} w='50%' colorScheme='teal' as='a' target='_blank' href='/pdfs/PORTARIA Nº 1066, DE 15 DE OUTUBRO DE 2021.pdf'>Portaria N° 1066</Button>
                         </HStack>
                     </Flex>
                 </Flex>
