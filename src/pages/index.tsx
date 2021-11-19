@@ -1,15 +1,15 @@
-import { Wrap, WrapItem, Center, Text, VStack, Image, Box, Flex, List, ListItem, HStack, Spacer } from '@chakra-ui/react'
+import { Wrap, WrapItem, Center, Text, VStack, Image, Box, Flex, List, ListItem, HStack, Spacer, Link } from '@chakra-ui/react'
 
 export default function Home() {
   return (
-    <Flex direction='column'>
+    <Flex direction='column' color='gray.50'>
       {/* Intro-Home */}
-      <Flex px={4} bg='#08018A'>
+      <Flex pt='100px' px={4} bg='#08018A'>
         <Wrap display='flex' justify='center' m='auto'>
           <WrapItem maxW='570px'>
             <Center mb='170px'>
               <VStack >
-                <Text as='h1' textAlign='left'>
+                <Text as='h2' textAlign='left'>
                   A Lei Geral de Proteção de Dados
                   é fundamental para fortalecer os
                   nossos direitos
@@ -33,7 +33,7 @@ export default function Home() {
 
       <Box bg='#fff' py='100px' >
         <Flex direction='column' maxW='1150px' m='auto' px={4}>
-          <Text color='#FF80ED' fontSize={['1.75rem', '2.25rem', '2.6rem']} fontWeight='800' >
+          <Text color='#FF80ED' fontSize={['1.6rem', '2.25rem', '2.6rem']} fontWeight='800' >
             {`<`}O que é a LGPD?{`>`}
           </Text>
           <Text
@@ -52,7 +52,7 @@ export default function Home() {
       </Box>
 
       {/*  Fundamentos */}
-      <Box py='100px'  bg='#08018A'>
+      <Box py='100px' bg='#08018A'>
         <Flex maxW='1150px' m='auto' px={4} flexWrap='wrap'>
           <Wrap display='flex' justify='center' m='auto' spacing='30px'>
             <WrapItem maxW='570px'>
@@ -142,7 +142,11 @@ export default function Home() {
                 <HStack p={4}>
                   <Image src='/Vector-icon.png' alt="Materias de Referência" />
                   <Spacer />
-                  <Text color="#555" fontWeight='bold' fontSize={['0.75rem', '0.875rem', '1rem']}>Materias de Referência</Text>
+                  <Text color="#555" fontWeight='bold' fontSize={['0.75rem', '0.875rem', '1rem']}>
+                    <Link href='/materiais_de_referencia'>
+                      Materias de Referência
+                    </Link>
+                  </Text>
                 </HStack>
               </Center>
             </WrapItem>

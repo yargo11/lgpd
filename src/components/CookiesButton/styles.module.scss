@@ -1,0 +1,33 @@
+.Cookies{
+    max-width: 1320px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    padding:1rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color:#ffffff;
+
+    a {
+        text-decoration: underline;
+    }
+
+    button{
+        width: 200px;
+        border: none;
+        border-radius: 10px;
+        padding: 0.5rem;
+
+        font-size: 1rem;
+        font-weight: 700;
+        color: #2e2e2e;
+        margin:0 0.5rem;
+    }    
+}

@@ -7,7 +7,7 @@ export default function Header() {
     const isWideScreen = useBreakpointValue({ base: false, lg: true })
 
     return (
-        <Box bg='#08018A'>
+        <Box bg='#08018A' color='gray.50'>
             <HStack
                 maxW='1150px'
                 px={4}
