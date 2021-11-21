@@ -46,7 +46,7 @@ export default function Implementacao() {
                             As análises quantitativa e estatística das pesquisas 2 e 3 serão realizadas pela Secretaria de Gestão Estratégica (SGE) com prazo de conclusão até 30 de outubro de 2021. Após essa fase serão direcionados os projetos pilotos para a adequação setorial e por prioridades institucionais no âmbito administrativo e judicial.
                         </Text>
 
-                        <Button as='a' href='#' size='md' colorScheme='blue' maxW='162px'> Link da Página</Button>
+                        <Button as='a' href='#' size='md' colorScheme='blue' color='#fff' maxW='162px'> Link da Página</Button>
                         <Text as='h6' color='#555' py={1}>
                             No escopo do programa de conscientização sobre a LGPD foram realizadas ações de sensibilização e de treinamento à Lei Geral de Proteção de dados Pessoais (LGPD) e em cumprimento ao inciso IX da Resolução nº 363, as ações relacionadas ao Programa de Conscientização foram realizados curso de introdução e o mês de proteção de dados.
                         </Text>
@@ -60,7 +60,7 @@ export default function Implementacao() {
                             A formação foi realizada na modalidade EaD, com o objetivo de promover o conhecimento sobre os aspectos básicos da Lei Geral de Proteção de Dados Pessoais (LGPD), além de informar atualizar e treinar os alunos, envolvidos na geração, tratamento e disponibilização de dados e informações para, através de métodos ativos de aprendizagem, contribuir com o aperfeiçoamento de habilidades e atitudes necessárias à disponibilidade e acesso a dados e informações sensíveis e sigilosas. O curso possui carga horária de 10 horas-aula e foi ministrado pela servidora Adriana Carla Oliveira, pós-doutora em Direito pela UFRN e doutora em Ciência da Informação pela UFPB. O curso está na sua 3ª turma e foi destinado aos servidores, estagiários e colaboradores.
                         </Text>
 
-                        <Button as='a' href='#' size='md' colorScheme='blue' maxW='162px'> Link da Matéria</Button>
+                        <Button as='a' href='#' size='md' colorScheme='blue' color='#fff'maxW='162px'> Link da Matéria</Button>
 
                         <Text as='h6' color='#555' py={1}>
                             No semestre de 2021.2 está previsto a execução do curso “Introdução à Lei Brasileira de Proteção de Dados Pessoais”, com apliação de carga horária para 20 horas, com foco na capacitação dos membros integrantes do CPGD e GTTs.
@@ -72,7 +72,7 @@ export default function Implementacao() {
                             Com o objetivo de sensibilizar sobre a importância da cultura de privacidade e a implementação da LGPD no âmbito do judicial, extrajudicial e administrativo do Poder Judiciário do RN foi idealizado o Mês da Proteção de Dados com foco na cultura de privacidade e implantação da LGPD, promoveu o mês da proteção de dados. O período de realização foi de 12/07 a 16/08/2021, sempre às 11 horas. O formato adotado foi através da modalidade de webinário com a transmissão ao vivo pelo canal do YouTube.
                         </Text>
 
-                        <Button as='a' href='#' size='md' colorScheme='blue' maxW='162px'> Link da Matéria</Button>
+                        <Button as='a' href='#' size='md' colorScheme='blue' color='#fff'maxW='162px'> Link da Matéria</Button>
 
                     </Flex>
                 </Flex>

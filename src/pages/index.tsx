@@ -56,7 +56,7 @@ export default function Home() {
         <Flex maxW='1150px' m='auto' px={4} flexWrap='wrap'>
           <Wrap display='flex' justify='center' m='auto' spacing='30px'>
             <WrapItem maxW='570px'>
-              <Image src='/imagem_ilustracao.png' htmlWidht='100%' alt='Fundamentos da LGPD' mt='-100px' />
+              <Image src='/imagem_ilustracao.png' htmlWidth='100%' alt='Fundamentos da LGPD' mt='-100px' />
             </WrapItem>
             <WrapItem maxW='570px'>
               <Center>

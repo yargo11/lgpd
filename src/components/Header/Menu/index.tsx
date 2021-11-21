@@ -38,7 +38,7 @@ export default function MenuLGPD({ showMenu = true }: MenuProps) {
                     <Text as='h5' px='8px'><Link href='/comite'>Comitê Gestor</Link></Text>
                     <Menu>
                         <MenuButton as={Link}>
-                            <Text as='h5' px='8px'><Link href='/'>Dados Pessoais <Icon as={FiChevronDown}></Icon></Link></Text>
+                            <Text as='h5' px='8px'>Dados Pessoais <Icon as={FiChevronDown}></Icon></Text>
                         </MenuButton>
                         <MenuList bg='rgba(40, 40, 40, 0.75)'>
                             <MenuItem as={Link} href='/direitos_dos_titulares'

@@ -156,9 +156,9 @@ export default function Comite() {
                             CABRAL atuará como sub- coordenador e a servidora ADRIANA CARLA SILVA DE OLIVEIRA exercerá
                             as funções de assessoramento aos trabalhos realizados pelo CGPD.
                         </Text>
-                        <HStack>
-                            <Button fontSize={['xs','sm','md']} w='50%' colorScheme='teal' as='a' target='_blank' href='/pdfs/PORTARIA Nº 1065, DE 15 DE OUTUBRO DE 2021 - republicado.pdf'>Portaria N° 1065</Button>
-                            <Button fontSize={['xs','sm','md']} w='50%' colorScheme='teal' as='a' target='_blank' href='/pdfs/PORTARIA Nº 1066, DE 15 DE OUTUBRO DE 2021.pdf'>Portaria N° 1066</Button>
+                        <HStack >
+                            <Button fontSize={['xs','sm','md']} w='50%' colorScheme='teal' color='#fff' as='a' target='_blank' href='/pdfs/PORTARIA Nº 1065, DE 15 DE OUTUBRO DE 2021 - republicado.pdf'>Portaria N° 1065</Button>
+                            <Button fontSize={['xs','sm','md']} w='50%' colorScheme='teal' color='#fff' as='a' target='_blank' href='/pdfs/PORTARIA Nº 1066, DE 15 DE OUTUBRO DE 2021.pdf'>Portaria N° 1066</Button>
                         </HStack>
                     </Flex>
                 </Flex>

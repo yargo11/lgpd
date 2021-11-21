@@ -18,7 +18,7 @@ import * as ReactGA from 'react-ga';
 export function CookiesButton() {
     const [cookieEnabled, setCookieEnabled] = React.useState('false');
 
-    const { isOpen, onOpen, onClose, onToggle } = useDisclosure()
+    const { isOpen, onOpen, onClose } = useDisclosure()
 
     const btnRef = React.useRef()
 
@@ -34,7 +34,7 @@ export function CookiesButton() {
         if (typeof window !== 'undefined') {
             localStorage.setItem('GA-tjrn', 'true');
         }
-
+console.log('tomtom')
         onClose();
     }
 
@@ -52,9 +52,10 @@ export function CookiesButton() {
                 placement="bottom"
                 onClose={onClose}
                 finalFocusRef={btnRef}
+                
             >
                 <DrawerOverlay />
-                <DrawerContent>
+                <DrawerContent bg='#fff'>
                     <DrawerCloseButton color='blue.400' />
                     <DrawerHeader
                         display='flex'
@@ -89,7 +90,7 @@ export function CookiesButton() {
                                 border='none'
                                 borderRadius='10px'
                                 p='1rem'
-
+                                colorScheme='green'
                                 fontSize={['0.75rem', '1rem']}
                                 fontWeight='700'
                                 color='#2e2e2e'
@@ -101,7 +102,7 @@ export function CookiesButton() {
                                 border='none'
                                 borderRadius='10px'
                                 p='1rem'
-
+                                colorScheme='red'
                                 fontSize={['0.75rem', '1rem']}
                                 fontWeight='700'
                                 color='#2e2e2e'

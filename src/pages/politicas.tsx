@@ -803,7 +803,7 @@ export default function Politicas() {
                             </AccordionItem>
                         </Accordion>
 
-                        <Button fontSize={['xs', 'sm', 'md']} colorScheme='blue' as='a' target='_blank' >Resolução 36 - 06/10/2021</Button>
+                        <Button fontSize={['xs', 'sm', 'md']} colorScheme='blue' color='#fff' as='a' target='_blank' >Resolução 36 - 06/10/2021</Button>
 
                     </Flex>
                 </Flex>
