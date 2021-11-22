@@ -1,4 +1,4 @@
-import { HStack, Box, Image, Spacer, Flex, useBreakpointValue } from '@chakra-ui/react'
+import { HStack, Box, Image, Spacer, Flex, useBreakpointValue, Link } from '@chakra-ui/react'
 
 import Menu from './Menu'
 
@@ -16,7 +16,7 @@ export default function Header() {
                 w='100%'
             >
                 <Flex>
-                    <Image src='/logo-tjrn.png' alt='logo' maxW='288px' w='100%' />
+                    <Link href='/'><Image src='/logo-tjrn.png' alt='logo' maxW='288px' w='100%' /></Link>
                 </Flex>
                 <Spacer />
                 <Menu showMenu={isWideScreen} />

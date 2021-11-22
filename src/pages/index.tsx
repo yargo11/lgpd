@@ -124,7 +124,11 @@ export default function Home() {
                 <HStack p={4}>
                   <Image src='/pasta-icon.png' alt="Eventos e Campanhas" />
                   <Spacer />
-                  <Text color="#555" fontWeight='bold' fontSize={['0.75rem', '0.875rem', '1rem']}>Eventos e Campanhas</Text>
+                  <Text color="#555" fontWeight='bold' fontSize={['0.75rem', '0.875rem', '1rem']}>
+                    <Link href='/eventos_e_campanhas'>
+                      Eventos e Campanhas
+                    </Link>
+                  </Text>
                 </HStack>
               </Center>
             </WrapItem>

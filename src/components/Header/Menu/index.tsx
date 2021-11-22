@@ -11,12 +11,11 @@ import {
     MenuButton,
     MenuList,
     MenuItem,
-    MenuItemOption,
-    MenuGroup,
-    MenuOptionGroup,
-    MenuIcon,
-    MenuCommand,
-    MenuDivider,
+    Accordion,
+    AccordionItem,
+    AccordionButton,
+    AccordionPanel,
+    AccordionIcon,
 } from '@chakra-ui/react'
 import { FiMenu, FiChevronDown } from 'react-icons/fi'
 
@@ -77,11 +76,25 @@ export default function MenuLGPD({ showMenu = true }: MenuProps) {
 
                                 <DrawerBody>
                                     <VStack color='tj_dark_blue'>
-                                        <Text as='h5' px='8px'>Geral</Text>
-                                        <Text as='h5' px='8px'>Comitê Gestor</Text>
-                                        <Text as='h5' px='8px'>Dados Pessoais</Text>
-                                        <Text as='h5' px='8px'>Implementação</Text>
-                                        <Text as='h5' px='8px'>Políticas</Text>
+                                        <Text as='h5' px='8px'><Link href='/'>Geral</Link></Text>
+                                        <Text as='h5' px='8px'><Link href='/comite'>Comitê Gestor</Link></Text>
+
+                                        <Accordion allowToggle textAlign='center'>
+                                            <AccordionItem justifyContent='center'>
+                                                <AccordionButton>
+                                                    <Text as='h5' px='8px' w='100%'>
+                                                        Dados Pessoais
+                                                    </Text>
+                                                </AccordionButton>
+                                                <AccordionPanel>
+                                                    <Text as='h5' px='8px'><Link href='/direitos_dos_titulares'>Direitos dos Titulares</Link></Text>
+                                                    <Text as='h5' px='8px'><Link href='/encarregado_pelo_tratamento'>Encarregado pelo Tratamento</Link></Text>
+                                                </AccordionPanel>
+                                            </AccordionItem>
+                                        </Accordion>
+
+                                        <Text as='h5' px='8px'><Link href='/implementacao'>Implementação</Link></Text>
+                                        <Text as='h5' px='8px'><Link href='/politicas'>Políticas</Link></Text>
                                     </VStack>
                                 </DrawerBody>
 

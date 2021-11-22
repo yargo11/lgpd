@@ -6,7 +6,7 @@ export default function EncarregadoPeloTratamento() {
             <Box bg='#0065F3' py='50px'>
                 <Flex direction='column' maxW='1150px' m='auto' px={4}>
                     <Text as='h2' pb='30px' color='#FEC810'>Encarregado pelo tratamento de dados pessoais</Text>
-                    <Text as='h4' maxW='832px' textAlign='left'>
+                    <Text as='h4' maxW='832px' textAlign='left' color='gray.50'>
                         O Encarregado pelo tratamento de dados pessoais é designado pelo Controlador. É a pessoa física ou
                         jurídica responsável por, dentre outras atribuições, realizar a comunicação entre os titulares de
                         dados pessoais, o controlador, a Autoridade Nacional de Proteção de Dados, bem como conhecer

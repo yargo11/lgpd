@@ -6,7 +6,7 @@ export default function Comite() {
             <Box bg='#0065F3' py='50px'>
                 <Flex direction='column' maxW='1150px' m='auto' px={4}>
                     <Text as='h2' pb='30px' color='#FEC810'>Comitê Gestor de Proteção de Dados (CGPD)</Text>
-                    <Text as='h4' maxW='832px' textAlign='left'>
+                    <Text as='h4' maxW='832px' textAlign='left' color='gray.50'>
                         É formado por Magistrados e Servidores designados como membros titulares e suplentes. A composição
                         do comitê teve como premissa a formação de equipe multidisciplinar com competências técnicas e a
                         representação de unidades judiciais e administrativas com a finalidade de prestarem assessoramento
