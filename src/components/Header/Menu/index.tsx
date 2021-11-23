@@ -72,7 +72,7 @@ export default function MenuLGPD({ showMenu = true }: MenuProps) {
                             <DrawerOverlay />
                             <DrawerContent>
                                 <DrawerCloseButton />
-                                <DrawerHeader>LGPD</DrawerHeader>
+                                <DrawerHeader textAlign='center'>LGPD</DrawerHeader>
 
                                 <DrawerBody>
                                     <VStack color='tj_dark_blue'>
@@ -100,7 +100,7 @@ export default function MenuLGPD({ showMenu = true }: MenuProps) {
 
                                 <DrawerFooter>
                                     <Button variant="outline" mr={3} onClick={onClose}>
-                                        Cancel
+                                        Fechar
                                     </Button>
                                 </DrawerFooter>
                             </DrawerContent>
