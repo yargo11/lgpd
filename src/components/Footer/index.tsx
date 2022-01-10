@@ -22,8 +22,7 @@ export default function Footer() {
                     </WrapItem>
                     <WrapItem maxW='585px' w='100%'>
                         <Text textAlign={['center', null, 'right']}>
-                            Tribunal de Justiça do Estado do Rio Grande do Norte - Praça Sete de Setembro, nº 34, Cidade Alta,
-                            Natal/RN, CEP 59025-300 - (84) 3673-8000
+                            Tribunal de Justiça do Estado do Rio Grande do Norte - Av. Jerônimo Câmara, 2000 - Nossa Sra. de Nazaré, Natal - RN, CEP 59060-300
                         </Text>
                     </WrapItem>
                     <WrapItem minW='280x'>

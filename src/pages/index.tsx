@@ -9,7 +9,7 @@ export default function Home() {
           <WrapItem maxW='570px'>
             <Center mb='170px'>
               <VStack >
-                <Text as='h2' textAlign='left'>
+                <Text as='h2' textAlign='left' fontFamily='JetBrains Mono, monospace'>
                   A Lei Geral de Proteção de Dados
                   é fundamental para fortalecer os
                   nossos direitos
@@ -33,7 +33,7 @@ export default function Home() {
 
       <Box bg='#fff' py='100px' >
         <Flex direction='column' maxW='1150px' m='auto' px={4}>
-          <Text color='#FF80ED' fontSize={['1.6rem', '2.25rem', '2.6rem']} fontWeight='800' >
+          <Text color='#FF80ED' fontSize={['1.6rem', '2.25rem', '2.6rem']} fontWeight='800' fontFamily='JetBrains Mono, monospace'>
             {`<`}O que é a LGPD?{`>`}
           </Text>
           <Text
@@ -115,7 +115,7 @@ export default function Home() {
       <Box bg='#fff' py='100px'>
         <Flex maxW='1150px' m='auto' px={4} flexWrap='wrap'>
 
-          <Text color='#FF80ED' fontSize={['1.75rem', '2.25rem', '2.6rem']} fontWeight='800' pb={4}>
+          <Text color='#08018A' fontSize={['1.75rem', '2.25rem', '2.6rem']} fontWeight='800' pb={4} fontFamily='JetBrains Mono, monospace'>
             {`<`}LGPD na mídia{`>`}
           </Text>
           <Wrap justify={['center', 'center', 'space-between']} w='full'>
